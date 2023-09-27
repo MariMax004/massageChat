@@ -26,12 +26,6 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-integration:3.1.4")
     implementation ("org.springframework.kafka:spring-kafka")
     implementation("io.projectreactor.kafka:reactor-kafka:1.3.17")
-
-    // https://mvnrepository.com/artifact/org.webjars/stomp-websocket
-    implementation("org.webjars:stomp-websocket:2.3.4")
-
-
-//    implementation ("org.apache.kafka:kafka-clients:2.8.0")
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
